@@ -1,0 +1,147 @@
+ *{
+     margin: 0;
+     padding: 0;
+	 box-sizing: border-box;
+	 font-family: 'Roboto', sans-serif;
+ }
+ h1{
+	font-family: 'Bebas Neue', cursive;
+ }
+ .logo-nav {
+	width: 300px;
+	height: auto;
+	float: left;
+}
+.nav-item.nav-link.active {
+	padding: 20px 28px;
+	font-size: 19px;
+}
+.nav-head {
+	background: #FFFFF4 !important;
+}
+.cover-img{
+    height: 400px;
+}
+
+.main-cover-img{
+	height: 600px;
+	width: auto;
+}
+
+ .footer{
+	 color: #fff;
+	 background: #130f40;
+	 padding: 20px ;
+	 font: 20px;
+	 text-align: center;
+ }
+ .bg-custom{
+	background: #FFFFF4 !important;
+ }
+ .main-cover-yext  {
+	  padding-top: 60px;
+	  padding-left: 10px;
+	 float: left;
+ }
+
+ 
+.Shopping{
+	margin: 100px;
+ 
+}
+/* .shopping-logo{
+	width: 100px;
+	height: 100px;
+} */
+.shopping-box {
+ 
+	background: #FFF;
+	box-shadow: 4px 4px 22px -2px rgba(0,0,0,0.43);
+	border-radius: 7px;
+	margin-top: 20px;
+	padding: 15px;
+	
+}
+ 
+ 
+ 
+.shopping-text h3{
+	color: #363958;
+}
+
+.highlite {
+	color: #2A1E59;
+	font-size: 90px;
+}
+ .highlight-other{
+	 color: #76C27E;
+	 font-size: 90px;
+ }
+ 
+ .main-cover{
+	 
+ }
+
+ 
+.casual-bag{
+	margin: 100px;
+}
+
+.card-body{
+	 
+}
+.card-body h5 {
+	color: #363958;
+	font-size: 26px;
+}
+.card-body p{
+	color: text-muted;
+}
+.card-body h4 {
+	color: #76C27E;
+	font-size: 30px;
+	font-weight: 700;
+	display: inline;
+	float: left;
+}
+.card-body button{
+	float: right;
+}
+
+.custom-color {
+	color: #fff;
+	background: #2A1E59;
+	border: 1px solid #2A1E59;
+	padding: 15px 40px;
+	font-weight: bolder;
+}
+
+.card-body button:hover{
+	color: #fff;
+	background: #2A1E59;
+	border: 1px solid #2A1E59;
+}
+
+.other-asscorise{
+	margin-bottom: 100px;
+}
+
+
+
+
+
+
+.col-md-4.other-asscorise-div {
+	padding: 10px;
+}
+/* *****************responsive css*********** */
+
+ @media(max-width :992){
+	.shopping-logo {
+		width: 328px;
+		text-align: center;
+		 
+	}
+} 
+
+ 
