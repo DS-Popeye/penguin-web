@@ -1,4 +1,5 @@
 <?php 
+include 'config.php';
 
 session_start();
 
@@ -45,11 +46,11 @@ if (!isset($_SESSION['username'])) {
 
       <div class="collapse navbar-collapse   d-flex  justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav ">
-          <a class="nav-item nav-link active" href="../index.html">Home </a>
-          <a class="nav-item nav-link active" href="#"> Product</a>
-          <a class="nav-item nav-link active" href="#">About Us</a>
-          <a class="nav-item nav-link active" href="#">Contract Us</a>
-          <a class="nav-item nav-link active" href="welcome.php">Account</a>
+          <a class="nav-item nav-link active" href="index.html">Home </a>
+          <a class="nav-item nav-link active" href="product.html"> Product</a>
+          <a class="nav-item nav-link active" href="about.html">About Us</a>
+          <a class="nav-item nav-link active" href="contact.html">Contract Us</a>
+          <a class="nav-item nav-link active" href="login\welcome.php">Account</a>
         </div>
       </div>
     </nav>
